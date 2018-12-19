@@ -7,92 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="accea589-4d0d-4025-ad31-a78106817221" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/controller/CommentController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/controller/ProductController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/controller/ShoppingCarController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/controller/ShoppingRecordController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/dao/CommentDaoImplement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/dao/EvaluationDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/dao/ProductDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/dao/ProductDaoImplement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/dao/ShoppingCarDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/dao/ShoppingCarDaoImplement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/dao/ShoppingRecordDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/dao/ShoppingRecordDaoImplement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/dao/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/dao/UserDaoImplement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/dao/UserDetailDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/dao/UserDetailDaoImplement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/entity/Comment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/entity/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/entity/ShoppingCar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/entity/ShoppingCarPriKey.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/entity/ShoppingRecord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/entity/ShoppingRecordPriKey.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/entity/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/entity/UserDetail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/service/EvaluationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/service/EvaluationServiceImplement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/service/ProductService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/service/ProductServiceImplement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/service/ShoppingCarService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/service/ShoppingCarServiceImplement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/service/ShoppingRecordService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/service/ShoppingRecordServiceImplement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/service/UserDetailService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/service/UserDetailServiceImplement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/service/UserServiceImplement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/shopping/utils/Response.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/properties/Shopping SQL语句.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/properties/database.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/spring/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/spring/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/views/change_info.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/views/control.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/views/include/foot.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/views/include/header.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/views/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/views/main.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/views/product_detail.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/views/register.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/views/search.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/views/shopping_car.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/views/shopping_handle.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/views/shopping_record.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/img/B1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/js/ajaxfileupload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/js/html5shiv.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/js/layer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/js/mobile/layer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/js/mobile/need/layer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/js/respond.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/js/skin/default/icon-ext.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/js/skin/default/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/js/skin/default/layer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/js/skin/default/loading-0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/js/skin/default/loading-1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/js/skin/default/loading-2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/js/skin/family/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/static/js/skin/lists/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../注意！点我.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Shopping.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Shopping.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Shopping_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Shopping_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/properties/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/properties/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.shopping+/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/com.shopping+/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.shopping+/WEB-INF/classes/properties/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/com.shopping+/WEB-INF/classes/properties/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.shopping+/static/img/banner1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/com.shopping+/static/img/banner1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.shopping+/static/img/banner2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/com.shopping+/static/img/banner2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.shopping+/static/img/banner3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/com.shopping+/static/img/banner3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.shopping+/static/img/banner4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/com.shopping+/static/img/banner4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.shopping+/static/img/banner5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/com.shopping+/static/img/banner5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.shopping+/static/img/banner6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/com.shopping+/static/img/banner6.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -115,12 +43,7 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -187,6 +110,44 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="2074797481">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+          <entry key="jpg" value="20" />
+          <entry key="jsp" value="6" />
+          <entry key="png" value="1" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="21" />
+          <entry key="JAVA" value="1" />
+          <entry key="JSP" value="6" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="properties" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Properties" value="17" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="Shopping" />
@@ -194,37 +155,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/change_info.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shopping_car.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="925">
-              <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/control.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="32" column="82" selection-start-line="32" selection-start-column="82" selection-end-line="32" selection-end-column="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/search.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="925">
-              <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+            <state relative-caret-position="428">
+              <caret line="181" column="13" selection-start-line="181" selection-start-column="13" selection-end-line="181" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -232,26 +166,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shopcontrol.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="32" column="57" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shopping_car.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4525">
-              <caret line="181" column="13" selection-start-line="181" selection-start-column="13" selection-end-line="181" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/entity/Product.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+            <state relative-caret-position="371">
+              <caret line="236" column="55" lean-forward="true" selection-start-line="236" selection-start-column="55" selection-end-line="236" selection-end-column="55" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -259,28 +178,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product_detail.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2950">
-              <caret line="118" column="30" selection-start-line="118" selection-start-column="30" selection-end-line="118" selection-end-column="30" />
+            <state relative-caret-position="-4275">
+              <caret line="75" column="29" lean-forward="true" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
+              <folding>
+                <element signature="n#style#0;n#button#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/target/com.shopping+/static/img/1.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/controller/ProductController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="508">
+              <caret line="69" column="25" lean-forward="true" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/properties/database.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/foot.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/target/com.shopping+/static/img/10.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -332,7 +255,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -386,8 +309,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/shopping/service/CommentService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/properties/database.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/foot.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/properties/database.properties" />
       </list>
     </option>
   </component>
@@ -429,7 +352,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1350" />
@@ -441,42 +364,43 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="OnlineShopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShopping" type="462c0819:PsiDirectoryNode" />
+              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="OnlineShopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShopping" type="462c0819:PsiDirectoryNode" />
+              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="OnlineShopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShopping" type="462c0819:PsiDirectoryNode" />
+              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="OnlineShopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShopping" type="462c0819:PsiDirectoryNode" />
+              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="OnlineShopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShopping" type="462c0819:PsiDirectoryNode" />
+              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="shopping" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="OnlineShopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShopping" type="462c0819:PsiDirectoryNode" />
+              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -484,78 +408,134 @@
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="OnlineShopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShopping" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shopping" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineShopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShopping" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shopping" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineShopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShopping" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shopping" type="462c0819:PsiDirectoryNode" />
-              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineShopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShopping" type="462c0819:PsiDirectoryNode" />
+              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="OnlineShopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShopping" type="462c0819:PsiDirectoryNode" />
+              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="properties" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="OnlineShopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShopping" type="462c0819:PsiDirectoryNode" />
+              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="com.shopping+" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="com.shopping+" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="com.shopping+" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="com.shopping+" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SearchEverywhereHistoryKey" value="roduct&#9;FILE&#9;file://E:/OpenSource/ProjectStorage/JavaProject/onlineShop/Shopping/src/main/java/com/shopping/service/ProductServiceImplement.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="android.sdk.path" value="$PROJECT_DIR$/../../../../SDK/android-sdk-windows" />
+    <property name="android.sdk.path" value="D:/../../SDK/android-sdk-windows" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545191310309" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545209890948" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="D:/server/maven/repository/org/hibernate/hibernate-core/4.3.8.Final/hibernate-core-4.3.8.Final.jar!/" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.5092896" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -598,7 +578,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tomcat9.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="tomcat9.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.34" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
@@ -718,11 +698,14 @@
       <workItem from="1545137739356" duration="767000" />
       <workItem from="1545184924255" duration="5910000" />
       <workItem from="1545202861220" duration="395000" />
+      <workItem from="1545208672015" duration="1244000" />
+      <workItem from="1545209941379" duration="777000" />
+      <workItem from="1545211441815" duration="1970000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213932000" />
+    <option name="totallyTimeSpent" value="217923000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -734,10 +717,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49839228" visible="true" weight="0.2526475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49839228" visible="true" weight="0.25603217" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -747,8 +729,8 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.597185" weight="0.4323077" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49597856" weight="0.71639585" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.597185" weight="0.30212766" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49597856" weight="0.71631205" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293944" />
@@ -760,9 +742,9 @@
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.3293944" />
       <window_info anchor="bottom" id="Database Changes" order="13" weight="0.3293944" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.3293944" />
-      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.402815" side_tool="true" weight="0.4519941" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.402815" side_tool="true" weight="0.45106384" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Database" order="1" sideWeight="0.49926144" visible="true" weight="0.041603632" />
+      <window_info anchor="right" id="Database" order="1" sideWeight="0.49926144" weight="0.16286863" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Palette" order="4" />
@@ -775,6 +757,45 @@
       <window_info anchor="right" id="Bean Validation" order="11" />
       <window_info anchor="right" id="Theme Preview" order="12" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49839228" visible="true" weight="0.25603217" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.5016077" side_tool="true" weight="0.230563" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.597185" visible="true" weight="0.30212766" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49597856" weight="0.71631205" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3293944" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32923076" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.3293944" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3293944" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49731904" weight="0.55538464" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3293944" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3293944" />
+      <window_info anchor="bottom" id="Database Changes" order="13" weight="0.3293944" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.3293944" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.402815" side_tool="true" weight="0.45106384" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Database" order="1" sideWeight="0.49926144" visible="true" weight="0.16286863" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.23994638" />
+      <window_info anchor="right" id="CDI" order="6" />
+      <window_info anchor="right" id="JSF" order="7" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Capture Analysis" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" sideWeight="0.50073856" side_tool="true" weight="0.21380697" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
+      <window_info anchor="right" id="Theme Preview" order="12" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -808,6 +829,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
@@ -825,155 +851,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/target/com.shopping+/static/img/banner2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/com.shopping+/static/img/banner1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="117" column="1" selection-start-line="117" selection-start-column="1" selection-end-line="117" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://62323186-8b40-4658-9ba0-c62a7c4189e3/schema/shopping/table/user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/dao/ProductDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1762">
-          <caret line="107" column="22" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/dao/ShoppingCarDaoImplement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1037">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/dao/ShoppingRecordDaoImplement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1787">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/entity/ShoppingCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-223">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/entity/ShoppingCarPriKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/entity/ShoppingRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/entity/ShoppingRecordPriKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/service/ShoppingCarServiceImplement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/service/ShoppingRecordServiceImplement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/utils/Response.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shopping_handle.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="153" column="205" selection-start-line="153" selection-start-column="23" selection-end-line="153" selection-end-column="205" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shopping_record.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="41" column="154" selection-start-line="41" selection-start-column="154" selection-end-line="41" selection-end-column="154" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/dao/ProductDaoImplement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1475">
-          <caret line="67" column="42" lean-forward="true" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/service/CommentServiceImplement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4075">
-          <caret line="163" column="22" selection-start-line="163" selection-start-column="22" selection-end-line="163" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/dao/UserDaoImplement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -1002,13 +879,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="137" selection-start-line="137" selection-end-line="137" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/interceptor/Authentication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1300">
@@ -1032,13 +902,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/dao/ShoppingRecordDao.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1065,9 +928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1101,73 +961,172 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/change_info.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
+        <state relative-caret-position="703">
           <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/control.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="32" column="82" selection-start-line="32" selection-start-column="82" selection-end-line="32" selection-end-column="82" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
+        <state relative-caret-position="456">
           <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/search.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
+        <state relative-caret-position="703">
           <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shopcontrol.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="32" column="57" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shopping_car.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4525">
-          <caret line="181" column="13" selection-start-line="181" selection-start-column="13" selection-end-line="181" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product_detail.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2950">
-          <caret line="118" column="30" selection-start-line="118" selection-start-column="30" selection-end-line="118" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/database.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/foot.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/entity/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        <state relative-caret-position="874">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/com.shopping+/static/img/banner3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/com.shopping+/static/img/banner2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/com.shopping+/static/img/banner1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/img/banner1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/database.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/foot.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="71" column="48" selection-start-line="71" selection-start-column="48" selection-end-line="71" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#p#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/control.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="32" column="82" selection-start-line="32" selection-start-column="82" selection-end-line="32" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/com.shopping+/static/img/login_illus.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/com.shopping+/static/img/22.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/com.shopping+/static/img/21.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/com.shopping+/static/img/20.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/com.shopping+/static/img/19.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/com.shopping+/static/img/18.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/com.shopping+/static/img/17.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/com.shopping+/static/img/16.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/com.shopping+/static/img/15.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/com.shopping+/static/img/14.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/com.shopping+/static/img/13.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/com.shopping+/static/img/10.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/com.shopping+/static/img/12.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/com.shopping+/static/img/9.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/com.shopping+/static/img/8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/com.shopping+/static/img/7.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shopping_car.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="181" column="13" selection-start-line="181" selection-start-column="13" selection-end-line="181" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shopping/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="69" column="25" lean-forward="true" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shopcontrol.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="236" column="55" lean-forward="true" selection-start-line="236" selection-start-column="55" selection-end-line="236" selection-end-column="55" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product_detail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4275">
+          <caret line="75" column="29" lean-forward="true" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/com.shopping+/static/img/1.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -1247,11 +1206,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: org.hibernate:hibernate-core:4.3.8.Final</last-edited>
+          <last-edited>Maven: org.springframework:spring-webmvc:4.3.5.RELEASE</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.5092896" />
               </list>
             </option>
           </splitter-proportions>
