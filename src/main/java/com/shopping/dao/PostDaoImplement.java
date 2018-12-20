@@ -13,7 +13,7 @@ public class PostDaoImplement implements PostDao {
     @Resource
     private SessionFactory sessionFactory;
     @Override
-    public List<Post> getPost(int productId){
+    public List<Post> getPostByProductId(int productId){
         String hql = "from Post where product_id= ?";
         Query query = sessionFactory.getCurrentSession().createQuery(hql);
         query.setParameter(0,productId);
@@ -24,4 +24,11 @@ public class PostDaoImplement implements PostDao {
         sessionFactory.getCurrentSession().save(post);
     }
 
+    @Override
+    public Post getPostByPostId(int postId){
+        String hql = "from Post where id=?";
+        Query query = sessionFactory.getCurrentSession().createQuery(hql);
+        query.setParameter(0, postId);
+        return (Post) query.uniqueResult();
+    }
 }

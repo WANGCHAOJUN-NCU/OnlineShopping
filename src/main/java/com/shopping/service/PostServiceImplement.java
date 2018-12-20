@@ -11,12 +11,14 @@ public class PostServiceImplement implements PostService{
     @Autowired
     private PostDao postDao;
     @Override
-    public List<Post> getPost(int productId){
-        return postDao.getPost(productId);
+    public List<Post> getPostByProductId(int productId){
+        return postDao.getPostByProductId(productId);
     }
    @Override
     public void addPost(Post post)
    {
        postDao.addPost(post);
    }
+   @Override
+   public Post getPostByPostId(int postId){return postDao.getPostByPostId(postId);};
 }

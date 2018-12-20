@@ -84,12 +84,16 @@
                 </button>
 
             </div>
+
         </div>
     </div>
     <div class="row">
         <div class="col-sm-1 col-md-1 col-lg-1"></div>
         <div class="col-sm-10 col-md-10 col-lg-10">
+
             <hr class="division"/>
+            <a href="#" onclick="listPosts()" style="color:white" >查看帖子</a>
+            <a href="#" onclick="listComments()" style="color:white" >查看评论</a>
             <table class="table CommentTable" border="0" id="Comment" style="color: white;">
             </table>
             <hr/>
@@ -101,7 +105,8 @@
 <!-- 尾部 -->
 <jsp:include page="include/foot.jsp"/>
 <script type="text/javascript">
-    listComments();//显示评论
+      listComments();//显示评论
+     // listPosts();
 
     function addToShoppingCar(productId) {
         judgeIsLogin();
@@ -310,15 +315,24 @@
         var Comments = getComments();
         var CommentTable = document.getElementById("Comment");
         var html = "";
+        CommentTable.innerHTML="";
+        document.getElementById("inputArea").value="";
+        html += '<tr>' +
+             '<th>' + "评论用户"+ '</th>' +
+             '<td>' + "评论内容"+ '</td>' +
+            '<td>' + "评论时间"+ '</td>'
+             '</tr>';
         for (var i = 0; i < Comments.length; i++) {
             var user = getUserById(Comments[i].userId);
             html += '<tr>' +
                 '<th>' + user.nickName + '</th>' +
                 '<td>' + Comments[i].content + '</td>' +
+                '<td>' + Comments[i].time + '</td>' +
                 '</tr>';
         }
         CommentTable.innerHTML += html;
-
+        var inputArea = document.getElementById("inputArea");
+        inputArea.innerHTML="";
         if (getUserProductRecord() === "true") {
             var inputArea = document.getElementById("inputArea");
             html = '<div class="col-sm-12 col-md-12 col-lg-12">' +
@@ -330,6 +344,41 @@
                 '</div>';
             inputArea.innerHTML += html;
         }
+
+    }
+    function listPosts() {
+        var Posts = getPosts();
+        var PostsTable = document.getElementById("Comment");
+        var html = "";
+        PostsTable.innerHTML="";
+        html += '<tr>' +
+            '<th>' + "发帖人"+ '</th>' +
+            '<td>' + "帖子标题"+ '</td>' +
+            '<td>' + "发帖时间"+ '</td>'
+            '</tr>';
+        for (var i = 0; i < Posts.length; i++) {
+            var user = getUserById(Posts[i].userId);
+            html += '<tr>' +
+                '<th>' + user.nickName + '</th>' +
+                '<td>' + '<a href="#" onclick="PostDetail(Post[i].id)" style="color:white">'+Posts[i].title +'</a>'+ '</td>' +
+                '<td>' + Posts[i].time + '</td>' +
+                '</tr>';
+        }
+        PostsTable.innerHTML += html;
+
+        //if (getUserProductRecord() === "true") {
+            var inputArea = document.getElementById("inputArea");
+            inputArea.innerHTML="";
+            html = '<div class="col-sm-12 col-md-12 col-lg-12">' +
+                '标题<input type="text" class="form-control" id="PostTitle"/>' +
+                '内容<textarea class="form-control" rows="4" id="PostContent"></textarea>' +
+                '</div>' +
+                '<div class="col-sm-12 col-md-12 col-lg-12">' +
+                '<div class="col-sm-4 col-md-4 col-lg-4"></div>' +
+                '<button class="btn btn-primary btn-lg CommentButton col-sm-4 col-md-4 col-lg-4" style="background-color: #FF9800;" onclick="addPost()">发帖</button>' +
+                '</div>';
+            inputArea.innerHTML += html;
+        //}
 
     }
 
@@ -375,6 +424,26 @@
         return Comments;
     }
 
+    function getPosts() {
+        var Post = "";
+        var product = {};
+        product.productId = ${productDetail.id};
+        $.ajax({
+            async: false, //设置同步
+            type: 'POST',
+            url: '${cp}/getPostByProductId',
+            data: product,
+            dataType: 'json',
+            success: function (result) {
+                Post = result.result;
+            },
+            error: function (result) {
+                layer.alert('查询错误');
+            }
+        });
+        Post = eval("(" + Post + ")");
+        return Post;
+    }
     function getUserById(id) {
         var userResult = "";
         var user = {};
@@ -421,7 +490,59 @@
             window.location.href = "${cp}/product_detail";
         }
     }
+      function addPost() {
+          var inputContent = document.getElementById("PostContent").value;
+          var inputTiltle =document.getElementById("PostTitle").value;
+          var Post ={};
+          Post.userId = ${currentUser.id};
+          Post.productId = ${productDetail.id};
+          Post.title = inputTiltle;
+          Post.content = inputContent;
+          var addResult = "";
+          $.ajax({
+              async: false,
+              type: 'POST',
+              url: '${cp}/addPost',
+              data: Post,
+              dataType: 'json',
+              success: function (result) {
+                  addResult = result.result;
+              },
+              error: function (result) {
+                  layer.alert('查询用户错误');
+                  alert(arguments[1]);
+              }
+          });
+          if (addResult = "success") {
+              layer.msg("发帖成功", {icon: 1});
+              window.location.href = "${cp}/product_detail";
+          }
+      }
+      function PostDetail(id) {
+          var Post = {};
+          var jumpResult = '';
+          Post.id = id;
+          $.ajax({
+              async : false, //设置同步
+              type : 'POST',
+              url : '${cp}/postDetail',
+              data : product,
+              dataType : 'json',
+              success : function(result) {
+                  jumpResult = result.result;
+              },
+              error : function(resoult) {
+                  layer.alert('查询错误');
+              }
+          });
 
+          if(jumpResult === "success"){
+              window.location.href = "${cp}/post_detail";
+          }
+      }
+      $('.carousel').carousel({
+          interval: 2000
+      })
 </script>
 </body>
 </html>
