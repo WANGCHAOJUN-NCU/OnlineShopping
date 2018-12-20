@@ -22,6 +22,7 @@
     <!-- 尾部 -->
     <hr/>
     <div class="foot-style" style="color:coral">
+        this
     </div>
     <!-- 结束啦 -->
 </body>
