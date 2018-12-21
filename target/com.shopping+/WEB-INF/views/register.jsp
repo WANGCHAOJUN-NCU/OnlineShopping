@@ -116,7 +116,7 @@
 
     <script type="text/javascript">
         function startRegister() {
-            var loading = layer.load(0);
+            var loading = layer.load(0,{time:1*1000});
             var user = {};
             user.userName = document.getElementById("inputUserName").value;
             user.email = document.getElementById("inputEmail").value;

@@ -105,9 +105,8 @@
 <!-- 尾部 -->
 <jsp:include page="include/foot.jsp"/>
 <script type="text/javascript">
-      listComments();//显示评论
-     // listPosts();
-
+      //listComments();//显示评论
+        listPosts();
     function addToShoppingCar(productId) {
         judgeIsLogin();
         var productCounts = document.getElementById("productCounts");
@@ -360,7 +359,7 @@
             var user = getUserById(Posts[i].userId);
             html += '<tr>' +
                 '<th>' + user.nickName + '</th>' +
-                '<td>' + '<a href="#" onclick="PostDetail(Post[i].id)" style="color:white">'+Posts[i].title +'</a>'+ '</td>' +
+                '<td>' + '<a href="#" onclick="PostDetail('+Posts[i].id+')" style="color:white">'+Posts[i].title +'</a>'+ '</td>' +
                 '<td>' + Posts[i].time + '</td>' +
                 '</tr>';
         }
@@ -526,13 +525,13 @@
               async : false, //设置同步
               type : 'POST',
               url : '${cp}/postDetail',
-              data : product,
+              data : Post,
               dataType : 'json',
               success : function(result) {
                   jumpResult = result.result;
               },
-              error : function(resoult) {
-                  layer.alert('查询错误');
+              error : function(XmlHttpRequest) {
+                alert(XmlHttpRequest.responseText)
               }
           });
 
@@ -540,9 +539,7 @@
               window.location.href = "${cp}/post_detail";
           }
       }
-      $('.carousel').carousel({
-          interval: 2000
-      })
+
 </script>
 </body>
 </html>

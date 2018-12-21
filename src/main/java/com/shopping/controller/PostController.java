@@ -29,6 +29,7 @@ public class PostController {
         resultMap.put("result",Posts);
         return resultMap;
     }
+
     @RequestMapping(value = "/addPost",method = RequestMethod.POST)
     @ResponseBody
     public Map<String,Object> addPost(int userId, int productId,String title, String content){
@@ -53,6 +54,7 @@ public class PostController {
     public Map<String, Object> postDetail(int id, HttpSession httpSession) {
         System.out.println("I am here!" + id);
         Post post = postService.getPostByPostId(id);
+        System.out.println(post.toString());
         httpSession.setAttribute("postDetail", post);
         Map<String, Object> resultMap = new HashMap<String, Object>();
         resultMap.put("result", "success");

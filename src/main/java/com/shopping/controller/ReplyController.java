@@ -1,6 +1,8 @@
 package com.shopping.controller;
 
+import com.alibaba.fastjson.JSONArray;
 import com.shopping.entity.Post;
+import com.shopping.entity.Reply;
 import com.shopping.service.PostService;
 import com.shopping.service.ReplyService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,27 +11,43 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.annotation.Resource;
 import javax.servlet.http.HttpSession;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @Controller
 public class ReplyController {
-    @Autowired private ReplyService replyService;
-    @Autowired private PostService postService;
-//    @RequestMapping(value = "/postDetail", method = RequestMethod.POST)
-//    @ResponseBody
-//    public Map<String, Object> postDetail(int id, HttpSession httpSession) {
-//        System.out.println("I am here!" + id);
-//        Post post = postService.getPostByPostId(id);
-//        httpSession.setAttribute("postDetail", id);
-//        Map<String, Object> resultMap = new HashMap<String, Object>();
-//        resultMap.put("result", "success");
-//        return resultMap;
-//    }
-//    @RequestMapping(value = "/post_detail")
-//    public String post_detail() {
-//        return "reply_detail";
-//    }
+    @Resource
+    private ReplyService replyService;
+    @RequestMapping(value = "/getReply",method = RequestMethod.POST)
+    @ResponseBody
+    public Map<String,Object> getReply(int postId){
+        List<Reply> ReplyList = replyService.getReplyByPostId(postId);
+        String Replies = JSONArray.toJSONString(ReplyList);
+        Map<String,Object> resultMap = new HashMap<String,Object>();
+        resultMap.put("result",Replies);
+        return resultMap;
+    }
+    @RequestMapping(value = "/addReply",method = RequestMethod.POST)
+    @ResponseBody
+    public Map<String,Object> addReply(int userId, int postId,String content){
+        String result = null;
+        Reply reply = new Reply();
+        reply.setUserId(userId);
+        reply.setPostId(postId);
+        Date date = new Date();
+        SimpleDateFormat sf = new SimpleDateFormat("yyyy-MM-dd HH-mm-ss");
+        reply.setTime(sf.format(date));
+        reply.setContent(content);
+        replyService.addReply(reply);
+        result = "success";
+        Map<String,Object> resultMap = new HashMap<String,Object>();
+        resultMap.put("result",result);
+        return resultMap;
+    }
 
 }
