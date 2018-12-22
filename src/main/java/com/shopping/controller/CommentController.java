@@ -24,7 +24,7 @@ public class CommentController {
     @Resource
     private ShoppingRecordService shoppingRecordService;
 
-    @RequestMapping(value = "/addShoppingComment",method = RequestMethod.POST)
+    @RequestMapping(value = "/addShoppingComment",method = RequestMethod.POST)//映射jsp中的请求路径
     @ResponseBody
     public Map<String,Object> addShoppingComment(int userId, int productId, String content){
 
