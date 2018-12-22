@@ -172,6 +172,26 @@ public class ProductController {
         return resultMap;
     }
 
+    //商家修改商品
+    @RequestMapping(value = "/doProductUpdate",method = RequestMethod.POST)
+    @ResponseBody
+    public Map<String,Object> doProductUpdate(String name,String description,String keyWord,int price,int counts,int type){
+        String result = "fail";
+        Product product = productService.getProduct(name);
+        System.out.println(product);
+        product.setName(name);
+        product.setDescription(description);
+        product.setKeyWord(keyWord);
+        product.setPrice(price);
+        product.setCounts(counts);
+        product.setType(type);
+        productService.updateProduct(product);
+        result = "success";
+        Map<String, Object> resultMap = new HashMap<String, Object>();
+        resultMap.put("result", result);
+        return resultMap;
+    }
+
 }
 
 

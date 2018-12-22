@@ -53,6 +53,11 @@ public class UserController {
         return "shopcontrol";
     }
 
+    //跳转到修改商品页面
+    @RequestMapping(value = "/change_product")
+    public String change_product(){
+        return "change_product";
+    }
     @RequestMapping(value = "/doLogin", method = RequestMethod.POST)
     @ResponseBody
     public Map<String, Object> doLogin(String userNameOrEmail, String password,String code, String inputStr, HttpSession httpSession) {

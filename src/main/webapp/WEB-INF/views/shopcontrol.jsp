@@ -141,7 +141,7 @@
         for(var i=0;i<allProduct.length;i++){
             var imgURL = "${cp}/img/"+allProduct[i].id+".jpg";
             html+='<div class="col-sm-4 col-md-4 pd-5">'+
-                '<div class="boxes">'+
+                '<div class="boxes pointer" onclick="productDetail('+allProduct[i].id+')">'+
                 '<div class="big bigimg">'+
                 '<img src="'+imgURL+'"   class= "img-responsive center-block"  >'+
                 '</div>'+
@@ -274,6 +274,28 @@
                 layer.alert("上传错误");
             }}
         );
+    }
+    function productDetail(id) {
+        var product = {};
+        var jumpResult = '';
+        product.id = id;
+        $.ajax({
+            async : false, //设置同步
+            type : 'POST',
+            url : '${cp}/productDetail',
+            data : product,
+            dataType : 'json',
+            success : function(result) {
+                jumpResult = result.result;
+            },
+            error : function(resoult) {
+                layer.alert('查询错误');
+            }
+        });
+
+        if(jumpResult === "success"){
+            window.location.href = "${cp}/change_product";
+        }
     }
 </script>
 </body>
