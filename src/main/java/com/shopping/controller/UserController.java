@@ -55,21 +55,26 @@ public class UserController {
 
     @RequestMapping(value = "/doLogin", method = RequestMethod.POST)
     @ResponseBody
-    public Map<String, Object> doLogin(String userNameOrEmail, String password, HttpSession httpSession) {
-        System.out.println("我接收到了登录请求" + userNameOrEmail + " " + password);
+    public Map<String, Object> doLogin(String userNameOrEmail, String password,String code, String inputStr, HttpSession httpSession) {
+        System.out.println("我接收到了登录请求" + userNameOrEmail + " " + password+ " "+inputStr);
         String result = "fail";
         User user = userService.getUser(userNameOrEmail);
-        if (user == null)
-            result = "unexist";
-        else {
-            //////////////////////////////////////////////////////////////////////////////
-            ////////////////////////////////////////////////////////////////////////////////UserDetail userDetail = userDetailService.getUserDetail(user.getId());
-            ////////////////////////////////////////////////////////////////////////////////
-            if (user.getPassword().equals(password)) {
-                result = "success";
-                httpSession.setAttribute("currentUser", user);
-            } else
-                result = "wrong";
+        if(code.equals(inputStr)) {
+            if (user == null)
+                result = "unexist";
+            else {
+
+                //UserDetail userDetail = userDetailService.getUserDetail(user.getId());
+
+                if (user.getPassword().equals(password)) {
+                    result = "success";
+                    httpSession.setAttribute("currentUser", user);
+                } else
+                    result = "wrong";
+            }
+        }
+        else{
+            result="notCode";
         }
         Map<String, Object> resultMap = new HashMap<String, Object>();
         resultMap.put("result", result);
