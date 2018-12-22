@@ -12,6 +12,7 @@ public class Post {
     private int userId;
     private String content;
     private String time;
+    private String title;
     @Id
     @GenericGenerator(name = "generator", strategy = "increment") //设置主键自增
     @GeneratedValue(generator = "generator")
@@ -58,5 +59,27 @@ public class Post {
 
     public void setTime(String time) {
         this.time = time;
+    }
+
+    @Column(name = "title")
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    @Override
+    public String toString() {
+        return "Post{" +
+                "id=" + id +
+                ", productId=" + productId +
+                ", userId=" + userId +
+                ", content='" + content + '\'' +
+                ", time='" + time + '\'' +
+                ", title='" + title + '\'' +
+                '}';
     }
 }

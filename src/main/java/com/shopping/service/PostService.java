@@ -7,7 +7,8 @@ import java.util.List;
 
 public interface PostService {
 
-    public List<Post> getPost(int productId);
+    public List<Post> getPostByProductId(int productId);
     public void addPost(Post post);
+    public Post getPostByPostId(int postId);
 
 }

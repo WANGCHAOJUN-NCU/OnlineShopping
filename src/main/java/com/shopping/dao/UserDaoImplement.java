@@ -56,7 +56,7 @@ public class UserDaoImplement implements UserDao {
         query.setParameter(0,user.getName());
         query.setParameter(1,user.getEmail());
         query.setParameter(2,user.getNickName());
-//        query.setParameter(3,user.getId());//有问题
+       // query.setParameter(3,user.getId());
         query.setParameter(3,user.getPassword());
         query.setParameter(4,user.getPhoneNumber());
         query.setParameter(5,user.getSex());
